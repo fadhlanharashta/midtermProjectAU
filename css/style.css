@@ -1,0 +1,61 @@
+
+
+/* Background */
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 80%, rgba(0, 0, 0, 0) 100%), url('https://cdn.discordapp.com/attachments/934661338934943774/1224584462856097843/Z.png?ex=661e0627&is=660b9127&hm=580c7f8d6ea59c3963efc3bf437a3d60fab0f8e790b63abf6e37b24b7eb797cc&');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+
+}
+
+.profileButton a{
+    width: 70px; 
+    height: 70px;
+    background-image: url('https://cdn.discordapp.com/attachments/934661338934943774/1224586735745503285/pngwing.com_2.png?ex=661e0845&is=660b9345&hm=5ab411005455b7aae4e37dcc3f5064e371bf12ac32928042a3a29f7f9e7c04b0&');
+    background-size: cover;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+.titleContent {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px; 
+    border-radius: 30px; 
+}
+
+.titleContent h1{
+    color: aliceblue;
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    margin-top: 10px; 
+
+}
+
+.titleContent h2{
+    color: aliceblue;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.titleContent a{
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    background-color: white;
+    padding:15px;
+    border-radius: 15px;
+    margin-top: 0px; 
+    text-decoration: none;
+    margin-top: 0px; 
+}
+
+
